@@ -1,0 +1,71 @@
+,antecedents,consequents,support,confidence,lift
+0,frozenset({'party'}),frozenset({'swig'}),0.02865329512893983,0.8333333333333334,2.403581267217631
+1,"frozenset({'finn', 'sobrato'})",frozenset({'graham'}),0.022922636103151862,0.8888888888888888,3.4856429463171037
+2,"frozenset({'graham', 'sobrato'})",frozenset({'finn'}),0.022922636103151862,1.0,4.532467532467533
+3,"frozenset({'finn', 'swig'})",frozenset({'graham'}),0.02005730659025788,1.0,3.9213483146067416
+4,"frozenset({'graham', 'swig'})",frozenset({'finn'}),0.02005730659025788,0.7777777777777778,3.525252525252525
+5,"frozenset({'graham', 'nobili'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+6,"frozenset({'dunne', 'finn'})",frozenset({'graham'}),0.022922636103151862,0.8888888888888888,3.4856429463171037
+7,"frozenset({'graham', 'nobili'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+8,"frozenset({'nobili', 'sobrato'})",frozenset({'graham'}),0.011461318051575931,1.0,3.9213483146067416
+9,"frozenset({'graham', 'swig'})",frozenset({'dunne'}),0.02005730659025788,0.7777777777777778,3.436005625879044
+10,"frozenset({'casa', 'nobili'})",frozenset({'graham'}),0.011461318051575931,1.0,3.9213483146067416
+11,"frozenset({'graham', 'nobili'})",frozenset({'casa'}),0.011461318051575931,1.0,9.18421052631579
+12,"frozenset({'finn', 'casa'})",frozenset({'sobrato'}),0.014326647564469915,0.8333333333333334,7.860360360360361
+13,"frozenset({'nobili', 'sobrato'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+14,"frozenset({'finn', 'swig'})",frozenset({'dunne'}),0.017191977077363897,0.8571428571428571,3.786618444846293
+15,"frozenset({'casa', 'nobili'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+16,"frozenset({'campisi_camp', 'finn'})",frozenset({'sanfilippo_flip'}),0.011461318051575931,0.7999999999999999,13.959999999999997
+17,"frozenset({'sanfilippo_flip', 'finn'})",frozenset({'campisi_camp'}),0.011461318051575931,0.7999999999999999,13.295238095238094
+18,"frozenset({'casa', 'nobili'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+19,"frozenset({'nobili', 'sobrato'})",frozenset({'casa'}),0.011461318051575931,1.0,9.18421052631579
+20,"frozenset({'party', 'good'})",frozenset({'swig'}),0.011461318051575931,1.0,2.8842975206611574
+21,"frozenset({'finn', 'casa', 'graham'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+22,"frozenset({'finn', 'casa', 'sobrato'})",frozenset({'graham'}),0.011461318051575931,0.7999999999999999,3.137078651685393
+23,"frozenset({'casa', 'graham', 'sobrato'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+24,"frozenset({'graham', 'finn', 'nobili'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+25,"frozenset({'finn', 'nobili', 'sobrato'})",frozenset({'graham'}),0.011461318051575931,1.0,3.9213483146067416
+26,"frozenset({'graham', 'nobili', 'sobrato'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+27,"frozenset({'graham', 'nobili'})","frozenset({'finn', 'sobrato'})",0.011461318051575931,1.0,38.77777777777778
+28,"frozenset({'nobili', 'sobrato'})","frozenset({'finn', 'graham'})",0.011461318051575931,1.0,7.755555555555556
+29,"frozenset({'dunne', 'finn', 'graham'})",frozenset({'swig'}),0.017191977077363897,0.75,2.1632231404958677
+30,"frozenset({'dunne', 'finn', 'swig'})",frozenset({'graham'}),0.017191977077363897,1.0,3.9213483146067416
+31,"frozenset({'dunne', 'graham', 'swig'})",frozenset({'finn'}),0.017191977077363897,0.8571428571428571,3.884972170686456
+32,"frozenset({'finn', 'graham', 'swig'})",frozenset({'dunne'}),0.017191977077363897,0.8571428571428571,3.786618444846293
+33,"frozenset({'finn', 'swig'})","frozenset({'dunne', 'graham'})",0.017191977077363897,0.8571428571428571,23.010989010989007
+34,"frozenset({'graham', 'finn', 'nobili'})",frozenset({'casa'}),0.011461318051575931,1.0,9.18421052631579
+35,"frozenset({'finn', 'nobili', 'casa'})",frozenset({'graham'}),0.011461318051575931,1.0,3.9213483146067416
+36,"frozenset({'finn', 'graham', 'casa'})",frozenset({'nobili'}),0.011461318051575931,1.0,24.928571428571427
+37,"frozenset({'graham', 'casa', 'nobili'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+38,"frozenset({'graham', 'nobili'})","frozenset({'finn', 'casa'})",0.011461318051575931,1.0,58.166666666666664
+39,"frozenset({'casa', 'nobili'})","frozenset({'finn', 'graham'})",0.011461318051575931,1.0,7.755555555555556
+40,"frozenset({'graham', 'casa', 'nobili'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+41,"frozenset({'casa', 'nobili', 'sobrato'})",frozenset({'graham'}),0.011461318051575931,1.0,3.9213483146067416
+42,"frozenset({'casa', 'graham', 'sobrato'})",frozenset({'nobili'}),0.011461318051575931,1.0,24.928571428571427
+43,"frozenset({'graham', 'nobili', 'sobrato'})",frozenset({'casa'}),0.011461318051575931,1.0,9.18421052631579
+44,"frozenset({'casa', 'nobili'})","frozenset({'graham', 'sobrato'})",0.011461318051575931,1.0,43.625
+45,"frozenset({'graham', 'nobili'})","frozenset({'casa', 'sobrato'})",0.011461318051575931,1.0,34.9
+46,"frozenset({'nobili', 'sobrato'})","frozenset({'casa', 'graham'})",0.011461318051575931,1.0,43.625
+47,"frozenset({'finn', 'casa', 'nobili'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+48,"frozenset({'finn', 'casa', 'sobrato'})",frozenset({'nobili'}),0.011461318051575931,0.7999999999999999,19.94285714285714
+49,"frozenset({'casa', 'nobili', 'sobrato'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+50,"frozenset({'finn', 'nobili', 'sobrato'})",frozenset({'casa'}),0.011461318051575931,1.0,9.18421052631579
+51,"frozenset({'casa', 'nobili'})","frozenset({'finn', 'sobrato'})",0.011461318051575931,1.0,38.77777777777778
+52,"frozenset({'nobili', 'sobrato'})","frozenset({'finn', 'casa'})",0.011461318051575931,1.0,58.166666666666664
+53,"frozenset({'graham', 'finn', 'nobili', 'casa'})",frozenset({'sobrato'}),0.011461318051575931,1.0,9.432432432432433
+54,"frozenset({'graham', 'finn', 'nobili', 'sobrato'})",frozenset({'casa'}),0.011461318051575931,1.0,9.18421052631579
+55,"frozenset({'finn', 'sobrato', 'nobili', 'casa'})",frozenset({'graham'}),0.011461318051575931,1.0,3.9213483146067416
+56,"frozenset({'finn', 'sobrato', 'graham', 'casa'})",frozenset({'nobili'}),0.011461318051575931,1.0,24.928571428571427
+57,"frozenset({'graham', 'casa', 'nobili', 'sobrato'})",frozenset({'finn'}),0.011461318051575931,1.0,4.532467532467533
+58,"frozenset({'graham', 'finn', 'nobili'})","frozenset({'casa', 'sobrato'})",0.011461318051575931,1.0,34.9
+59,"frozenset({'finn', 'nobili', 'casa'})","frozenset({'graham', 'sobrato'})",0.011461318051575931,1.0,43.625
+60,"frozenset({'finn', 'nobili', 'sobrato'})","frozenset({'casa', 'graham'})",0.011461318051575931,1.0,43.625
+61,"frozenset({'finn', 'graham', 'casa'})","frozenset({'nobili', 'sobrato'})",0.011461318051575931,1.0,87.25
+62,"frozenset({'finn', 'sobrato', 'casa'})","frozenset({'graham', 'nobili'})",0.011461318051575931,0.7999999999999999,69.8
+63,"frozenset({'graham', 'casa', 'nobili'})","frozenset({'finn', 'sobrato'})",0.011461318051575931,1.0,38.77777777777778
+64,"frozenset({'graham', 'nobili', 'sobrato'})","frozenset({'finn', 'casa'})",0.011461318051575931,1.0,58.166666666666664
+65,"frozenset({'casa', 'nobili', 'sobrato'})","frozenset({'finn', 'graham'})",0.011461318051575931,1.0,7.755555555555556
+66,"frozenset({'casa', 'graham', 'sobrato'})","frozenset({'finn', 'nobili'})",0.011461318051575931,1.0,58.166666666666664
+67,"frozenset({'graham', 'nobili'})","frozenset({'finn', 'sobrato', 'casa'})",0.011461318051575931,1.0,69.8
+68,"frozenset({'casa', 'nobili'})","frozenset({'finn', 'graham', 'sobrato'})",0.011461318051575931,1.0,43.625
+69,"frozenset({'nobili', 'sobrato'})","frozenset({'finn', 'graham', 'casa'})",0.011461318051575931,1.0,87.25
